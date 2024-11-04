@@ -1,4 +1,11 @@
 (executable
- (public_name typechecking_skeleton)
- (name main)
- (libraries typechecking_skeleton))
+ (public_name main)
+ (name typechecking)
+ (modules typechecking)
+ (libraries lib)
+ (preprocess (pps ppx_deriving.std convert)))
+
+(env
+ (dev
+  (flags
+   (:standard -g -w "-26-27-32-33-34-37-39"))))

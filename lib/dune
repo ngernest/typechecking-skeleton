@@ -1,2 +1,8 @@
-(library
- (name typechecking_skeleton))
+(library 
+ (name lib)
+ (modules syntax))
+
+(env
+ (dev
+  (flags
+   (:standard -g -w "-26-27-32-33-34-39"))))
