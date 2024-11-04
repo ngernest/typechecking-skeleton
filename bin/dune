@@ -1,0 +1,4 @@
+(executable
+ (public_name typechecking_skeleton)
+ (name main)
+ (libraries typechecking_skeleton))
