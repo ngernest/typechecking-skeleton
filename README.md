@@ -21,5 +21,5 @@ From [this OCaml forum post](https://discuss.ocaml.org/t/writing-type-inference-
 > let f  = 
 >    Lam (Lam (App (Var 0, Var 1)))
 > ```
-> which was quite useful when going through Oleg’s article, as it allowed me to check the > type-checking algorithm at each step against OCaml’s one by simply removing the “%syntax” > annotation and checking the OCaml type for the term.
+> which was quite useful when going through [Oleg’s article](https://okmij.org/ftp/ML/generalization.html) (on Remy's type generalization algorithm), as it allowed me to check the > type-checking algorithm at each step against OCaml’s one by simply removing the “%syntax” > annotation and checking the OCaml type for the term.
 > 
